@@ -125,7 +125,9 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"patrolPositionIndex","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"attackRange","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"attackTimer","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"healthAmount","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"healthAmountMax","value":{"$content":-1,"$type":"System.Int32"},"$version":"A"},{"name":"material","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sprite","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"dissolveMaterial","value":null,"$version":"A"},{"name":"flowMachineList","value":{"$content":[2,3,4],"$type":"System.Collections.Generic.List`1[[Bolt.FlowMachine,
       Bolt.Flow.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"HomePosition","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"PatrolPosition","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"IsPatrolling","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"LastKnownPlayerPosition","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"ElapsedTimeSincePlayerSeen","value":{"$content":9999.0,"$type":"System.Single"},"$version":"A"},{"name":"MemoryTimePlayerPosition","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"ViewAngle","value":{"$content":90.0,"$type":"System.Single"},"$version":"A"},{"name":"soundSensibility","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"LastNoisePlayerPosition","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"soundsAroundMe","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[Noise,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"interestingSounds","value":{"$content":["Footstep","WeaponImpact"],"$type":"System.Collections.Generic.List`1[[System.String,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"messageText","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"messageText","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"messageSeenEnemy","value":{"$content":"!","$type":"System.String"},"$version":"A"},{"name":"messageLostEnemy","value":{"$content":"Se
+      me ha escapado...","$type":"System.String"},"$version":"A"},{"name":"messageHeardNoise","value":{"$content":"?","$type":"System.String"},"$version":"A"},{"name":"messageNothingNoise","value":{"$content":"Habr\u00e1
+      sido el viento","$type":"System.String"},"$version":"A"},{"name":"fadeMessageTimeout","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 2100000, guid: 775d4a2ae1ddaab40a77be8796818f8b, type: 2}
     - {fileID: 397161851105913861}
@@ -346,7 +348,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 5}
+  m_SizeDelta: {x: 10, y: 4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &1851441362880030245
 MeshRenderer:
@@ -441,8 +443,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 10
+  m_fontSizeBase: 10
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -477,7 +479,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -0.0000009536743, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
