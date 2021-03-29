@@ -47,8 +47,7 @@ GameObject:
   - component: {fileID: 397161850030151870}
   - component: {fileID: 397161850030151862}
   - component: {fileID: 397161850030151861}
-  - component: {fileID: 2082490278182499875}
-  - component: {fileID: 9163275867897569774}
+  - component: {fileID: 1692494666906174052}
   m_Layer: 8
   m_Name: EnemyArrow
   m_TagString: Untagged
@@ -151,15 +150,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"movePosition","value":{"x":4.0,"y":-10.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"moveSpeed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"movementVector","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"lastMoveDir","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"reachedPositionDistance","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"playerDetectionRadius","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"patrolPositionList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.Transform,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"patrolPositionIndex","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"attackRange","value":{"$content":8.0,"$type":"System.Single"},"$version":"A"},{"name":"attackTimer","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"healthAmount","value":{"$content":2,"$type":"System.Int32"},"$version":"A"},{"name":"healthAmountMax","value":{"$content":-1,"$type":"System.Int32"},"$version":"A"},{"name":"fireArrowChance","value":{"$content":50,"$type":"System.Int32"},"$version":"A"},{"name":"material","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sprite","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"dissolveMaterial","value":null,"$version":"A"},{"name":"flowMachineList","value":{"$content":[2,3,4],"$type":"System.Collections.Generic.List`1[[Bolt.FlowMachine,
-      Bolt.Flow.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"rotationHelper","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"playerDetectionRadius","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"attackRange","value":{"$content":8.0,"$type":"System.Single"},"$version":"A"},{"name":"attackTimer","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"healthAmount","value":{"$content":2,"$type":"System.Int32"},"$version":"A"},{"name":"healthAmountMax","value":{"$content":-1,"$type":"System.Int32"},"$version":"A"},{"name":"fireArrowChance","value":{"$content":50,"$type":"System.Int32"},"$version":"A"},{"name":"material","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sprite","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"dissolveMaterial","value":null,"$version":"A"},{"name":"rotationHelper","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 2100000, guid: 775d4a2ae1ddaab40a77be8796818f8b, type: 2}
     - {fileID: 397161851105913861}
-    - {fileID: 397161850030151860}
-    - {fileID: 397161850030151862}
-    - {fileID: 397161850030151861}
     - {fileID: 46803839481798643}
 --- !u!114 &397161850030151860
 MonoBehaviour:
@@ -190,8 +184,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
-    _objectReferences: []
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 3af77d87c0a152b4092ccfca731c960e, type: 2}
 --- !u!114 &397161850030151862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -224,23 +219,7 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 40318699afdbea74fbbe5475030ca02a, type: 2}
---- !u!114 &2082490278182499875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 397161850030151869}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: d1160e89fe9656d438b1de4fcc5620be, type: 2}
---- !u!195 &9163275867897569774
+--- !u!195 &1692494666906174052
 NavMeshAgent:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
