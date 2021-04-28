@@ -1,0 +1,12 @@
+Patrol->Chase (visto)
+Chase->Patrol (no le veo)
+
+
+Patrol->Flee (le veo + esta muy cerca)
+Chase->Attack (visto + rango de ataque)
+
+Attack->Chase (visto + no rango de ataque)
+Attack->Flee (no estoy sano || esta muy cerca)
+Flee->Chase (estoy sano + no estoy en rango de ataque + visto)
+Flee->Attack (estoy lejos y rango de ataque)
+Flee->Patrol (no le veo)

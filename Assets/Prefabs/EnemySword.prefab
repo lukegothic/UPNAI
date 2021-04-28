@@ -129,7 +129,7 @@ MonoBehaviour:
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"interestingSounds","value":{"$content":["Footstep","WeaponImpact"],"$type":"System.Collections.Generic.List`1[[System.String,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"messageText","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"messageSeenEnemy","value":{"$content":"!","$type":"System.String"},"$version":"A"},{"name":"messageLostEnemy","value":{"$content":"Se
       me ha escapado...","$type":"System.String"},"$version":"A"},{"name":"messageHeardNoise","value":{"$content":"?","$type":"System.String"},"$version":"A"},{"name":"messageNothingNoise","value":{"$content":"Habr\u00e1
-      sido el viento","$type":"System.String"},"$version":"A"},{"name":"fadeMessageTimeout","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"rotationHelper","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"damageValue","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      sido el viento","$type":"System.String"},"$version":"A"},{"name":"fadeMessageTimeout","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"rotationHelper","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 2100000, guid: 775d4a2ae1ddaab40a77be8796818f8b, type: 2}
     - {fileID: 397161851105913861}
@@ -244,7 +244,7 @@ NavMeshAgent:
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 0.5
+  m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -350,7 +350,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &791364325270514453
 Transform:
   m_ObjectHideFlags: 0
@@ -358,13 +358,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4388403657043050873}
-  m_LocalRotation: {x: 0, y: 0, z: -1, w: 0}
-  m_LocalPosition: {x: 0, y: 2.43, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -3.19, z: 0}
   m_LocalScale: {x: 6.34, y: 5.08, z: 1}
   m_Children: []
   m_Father: {fileID: 2442303925764262899}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6823379335175471427
 SpriteRenderer:
   m_ObjectHideFlags: 0
