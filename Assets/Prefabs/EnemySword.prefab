@@ -129,7 +129,7 @@ MonoBehaviour:
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"interestingSounds","value":{"$content":["Footstep","WeaponImpact"],"$type":"System.Collections.Generic.List`1[[System.String,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"messageText","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"messageSeenEnemy","value":{"$content":"!","$type":"System.String"},"$version":"A"},{"name":"messageLostEnemy","value":{"$content":"Se
       me ha escapado...","$type":"System.String"},"$version":"A"},{"name":"messageHeardNoise","value":{"$content":"?","$type":"System.String"},"$version":"A"},{"name":"messageNothingNoise","value":{"$content":"Habr\u00e1
-      sido el viento","$type":"System.String"},"$version":"A"},{"name":"fadeMessageTimeout","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"rotationHelper","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      sido el viento","$type":"System.String"},"$version":"A"},{"name":"fadeMessageTimeout","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"rotationHelper","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"importanceLevel","value":{"$content":1.5,"$type":"System.Single"},"$version":"A"},{"name":"fearLevel","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 2100000, guid: 775d4a2ae1ddaab40a77be8796818f8b, type: 2}
     - {fileID: 397161851105913861}
