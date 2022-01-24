@@ -18,7 +18,6 @@ GameObject:
   - component: {fileID: 397161850030151862}
   - component: {fileID: 397161850030151861}
   - component: {fileID: 2558427346826873019}
-  - component: {fileID: 3290990980718371269}
   m_Layer: 8
   m_Name: EnemySword
   m_TagString: Untagged
@@ -208,22 +207,6 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: d1160e89fe9656d438b1de4fcc5620be, type: 2}
---- !u!114 &3290990980718371269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 397161850030151869}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: bdd4b8839e3d1934bbd79f1bc96b9158, type: 2}
 --- !u!1 &397161851105913867
 GameObject:
   m_ObjectHideFlags: 0
