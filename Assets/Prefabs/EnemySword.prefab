@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 397161850030151865}
   - component: {fileID: 397161850030151864}
   - component: {fileID: 397161850030151871}
-  - component: {fileID: 397161850030151860}
   - component: {fileID: 397161850030151870}
+  - component: {fileID: 397161850030151860}
   - component: {fileID: 397161850030151862}
   - component: {fileID: 397161850030151861}
   - component: {fileID: 2558427346826873019}
@@ -119,15 +119,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"movePosition","value":{"x":4.0,"y":-10.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"moveSpeed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"movementVector","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"lastMoveDir","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"reachedPositionDistance","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"playerDetectionRadius","value":{"$content":12.0,"$type":"System.Single"},"$version":"A"},{"name":"patrolPositionList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.Transform,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"patrolPositionIndex","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"attackRange","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"attackTimer","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"healthAmount","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"healthAmountMax","value":{"$content":-1,"$type":"System.Int32"},"$version":"A"},{"name":"material","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sprite","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"dissolveMaterial","value":null,"$version":"A"},{"name":"flowMachineList","value":{"$content":[2,3,4],"$type":"System.Collections.Generic.List`1[[Bolt.FlowMachine,
-      Bolt.Flow.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"HomePosition","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"PatrolPosition","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"IsPatrolling","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"LastKnownPlayerPosition","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"ElapsedTimeSincePlayerSeen","value":{"$content":9999.0,"$type":"System.Single"},"$version":"A"},{"name":"MemoryTimePlayerPosition","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"ViewAngle","value":{"$content":90.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"movePosition","value":{"x":4.0,"y":-10.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"moveSpeed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"movementVector","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"lastMoveDir","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"healthAmount","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"healthAmountMax","value":{"$content":-1,"$type":"System.Int32"},"$version":"A"},{"name":"material","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sprite","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"dissolveMaterial","value":null,"$version":"A"},{"name":"flowMachineList","value":{"$content":[2,3,4],"$type":"System.Collections.Generic.List`1[[Bolt.FlowMachine,
+      Bolt.Flow.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 2100000, guid: 775d4a2ae1ddaab40a77be8796818f8b, type: 2}
     - {fileID: 397161851105913861}
     - {fileID: 397161850030151860}
     - {fileID: 397161850030151862}
     - {fileID: 397161850030151861}
+--- !u!114 &397161850030151870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397161850030151869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1999370065, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
 --- !u!114 &397161850030151860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,21 +158,6 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 7b9d59d6d046da04c965c98252ff8822, type: 2}
---- !u!114 &397161850030151870
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 397161850030151869}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1999370065, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
-    _objectReferences: []
 --- !u!114 &397161850030151862
 MonoBehaviour:
   m_ObjectHideFlags: 0
