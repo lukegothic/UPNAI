@@ -126,11 +126,11 @@ MonoBehaviour:
     _json: '{"declarations":{"collection":{"$content":[{"name":"movePosition","value":{"x":4.0,"y":-10.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"moveSpeed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"rotationSpeed","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"movementVector","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"lastMoveDir","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"reachedPositionDistance","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"playerDetectionRadius","value":{"$content":12.0,"$type":"System.Single"},"$version":"A"},{"name":"patrolPositionList","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.Transform,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"patrolPositionIndex","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"attackRange","value":{"$content":2.0,"$type":"System.Single"},"$version":"A"},{"name":"attackTimer","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"healthAmount","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"healthAmountMax","value":{"$content":-1,"$type":"System.Int32"},"$version":"A"},{"name":"material","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"sprite","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"dissolveMaterial","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[Bolt.FlowMachine,
       Bolt.Flow.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"flowMachineList","value":{"$content":[2,3,4],"$type":"System.Collections.Generic.List`1[[Bolt.FlowMachine,
-      Bolt.Flow.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"HomePosition","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"PatrolPosition","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"IsPatrolling","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"LastKnownPlayerPosition","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"ElapsedTimeSincePlayerSeen","value":{"$content":9999.0,"$type":"System.Single"},"$version":"A"},{"name":"MemoryTimePlayerPosition","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"ViewAngle","value":{"$content":90.0,"$type":"System.Single"},"$version":"A"},{"name":"soundSensibility","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"LastNoisePlayerPosition","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"soundsAroundMe","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[Noise,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"interestingSounds","value":{"$content":["Footstep","WeaponImpact"],"$type":"System.Collections.Generic.List`1[[System.String,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"messageText","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"messageSeenEnemy","value":{"$content":"!","$type":"System.String"},"$version":"A"},{"name":"messageLostEnemy","value":{"$content":"Se
-      me ha escapado...","$type":"System.String"},"$version":"A"},{"name":"messageHeardNoise","value":{"$content":"?","$type":"System.String"},"$version":"A"},{"name":"messageNothingNoise","value":{"$content":"Habr\u00e1
-      sido el viento","$type":"System.String"},"$version":"A"},{"name":"fadeMessageTimeout","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"rotationHelper","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Bolt.Flow.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"HomePosition","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"PatrolPosition","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"IsPatrolling","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"LastKnownPlayerPosition","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"ElapsedTimeSincePlayerSeen","value":{"$content":9999.0,"$type":"System.Single"},"$version":"A"},{"name":"MemoryTimePlayerPosition","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"ViewAngle","value":{"$content":90.0,"$type":"System.Single"},"$version":"A"},{"name":"soundSensibility","value":{"$content":20.0,"$type":"System.Single"},"$version":"A"},{"name":"soundsAroundMe","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[Noise,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"LastNoisePlayerPosition","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"interestingSounds","value":{"$content":["Footstep","WeaponImpact","WeaponSwing"],"$type":"System.Collections.Generic.List`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"messageText","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"messageSeenEnemy","value":{"$content":"!","$type":"System.String"},"$version":"A"},{"name":"messageHeardNoise","value":{"$content":"?","$type":"System.String"},"$version":"A"},{"name":"messageNothingNoise","value":{"$content":"Habr\u00e1
+      sido el viento","$type":"System.String"},"$version":"A"},{"name":"fadeMessageTimeout","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"messageLostEnemy","value":{"$content":"Se
+      me ha escapado...","$type":"System.String"},"$version":"A"},{"name":"rotationHelper","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"FovGO","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"patrolColor","value":{"r":0.0,"g":0.7438991,"b":1.0,"a":1.0,"$type":"UnityEngine.Color"},"$version":"A"},{"name":"chaseColor","value":{"r":0.8867924,"g":0.0,"b":0.0,"a":1.0,"$type":"UnityEngine.Color"},"$version":"A"},{"name":"suspectColor","value":{"r":0.8490566,"g":0.8207524,"b":0.05206481,"a":1.0,"$type":"UnityEngine.Color"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 2100000, guid: 775d4a2ae1ddaab40a77be8796818f8b, type: 2}
     - {fileID: 397161851105913861}
@@ -139,6 +139,7 @@ MonoBehaviour:
     - {fileID: 397161850030151861}
     - {fileID: 6368815200801757769}
     - {fileID: 8489655052499998817}
+    - {fileID: 4388403657043050873}
 --- !u!114 &397161850030151860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -357,7 +358,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4388403657043050873}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -3.19, z: 0}
+  m_LocalPosition: {x: 0, y: -4.4, z: 0}
   m_LocalScale: {x: 6.34, y: 5.08, z: 1}
   m_Children: []
   m_Father: {fileID: 2442303925764262899}
@@ -402,12 +403,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: 9f78ece45ced16f45bce6210c85498e3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 72cb9149ff38cf540b6a716b899c5eb7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 3, y: 1.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
