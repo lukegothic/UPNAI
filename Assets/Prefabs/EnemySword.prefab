@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 397161850030151862}
   - component: {fileID: 397161850030151861}
   - component: {fileID: 4518715771401942976}
+  - component: {fileID: 2944984768289272531}
   m_Layer: 8
   m_Name: EnemySword
   m_TagString: Untagged
@@ -218,6 +219,28 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 4aecef222e5a4704a8330e1f655949ea, type: 2}
+--- !u!195 &2944984768289272531
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397161850030151869}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &397161851105913867
 GameObject:
   m_ObjectHideFlags: 0
