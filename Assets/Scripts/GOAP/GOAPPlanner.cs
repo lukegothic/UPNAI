@@ -62,7 +62,7 @@ public class GOAPPlanner : MonoBehaviour
                 // aplicar los efectos de la acción, de manera temporal, al estado padre
                 List<GOAPState> currentState = populateState(parent.state, action.Effects);
                 
-                Node node = new Node(parent, parent.runningCost + action.cost, currentState, action);
+                Node node = new Node(parent, parent.runningCost + action.executionCost, currentState, action);
 
                 if (inState(goal, currentState)) {
                     // hemos encontrado una solución cuando coinciden los estados del goal con el estado actual

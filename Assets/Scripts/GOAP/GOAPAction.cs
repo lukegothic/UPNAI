@@ -5,12 +5,15 @@ using Bolt;
 
 public abstract class GOAPAction : MonoBehaviour
 {
-    public GameObject target;
-    public float cost = 1f;
-    public float time = 1f;
+    // Component fields
     public string actionName;
     public List<GOAPState> Preconditions;
     public List<GOAPState> Effects;
+    // Action fields
+    public GameObject executionPlace = null;
+    public float executionCost = 1f;
+    public float executionTime = 1f;
+    
     public GOAPAction() {
         Preconditions = new List<GOAPState>();
         Effects = new List<GOAPState>();
