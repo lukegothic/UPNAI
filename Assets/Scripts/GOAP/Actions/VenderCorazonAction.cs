@@ -6,7 +6,6 @@ public class VenderCorazonAction : GOAPAction
 {
    public VenderCorazonAction() : base()
     {
-        actionName = "VenderCorazon";
         Preconditions.Add(new GOAPState("has_venta", false));
         Preconditions.Add(new GOAPState("has_corazon", true));
         Effects.Add(new GOAPState("has_venta", true));

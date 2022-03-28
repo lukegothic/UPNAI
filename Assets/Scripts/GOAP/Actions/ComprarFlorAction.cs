@@ -6,7 +6,6 @@ public class ComprarFlorAction : GOAPAction
 {
    public ComprarFlorAction() : base()
     {
-        actionName = "ComprarFlor";
         Preconditions.Add(new GOAPState("has_flor", false));
         Preconditions.Add(new GOAPState("has_dinero", true));
         Effects.Add(new GOAPState("has_flor", true));

@@ -6,7 +6,6 @@ using Bolt;
 public abstract class GOAPAction : MonoBehaviour
 {
     // Component fields
-    public string actionName;
     public List<GOAPState> Preconditions;
     public List<GOAPState> Effects;
     // Action fields
